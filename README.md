@@ -26,7 +26,7 @@ The high-throuhgput workflow uses a mixture of machine learning, data-driven mod
 
 #### Data
 
-The required data can be downloaded separately from XXXX and should be placed into this directory as a folder called `data`. For the first notebook, a database is also required from [the CMR](https://cmr.fysik.dtu.dk/mp_gllbsc/mp_gllbsc.html#mp-gllbsc).
+The required data can be downloaded separately [here](https://zenodo.org/record/2600285#.XJKBzs_7RBw) and should be untarred directly into this directory, creating a sub-directory named `data`. For the first notebook, a database is also required from [the CMR](https://cmr.fysik.dtu.dk/mp_gllbsc/mp_gllbsc.html#mp-gllbsc).
 
 ### Dependencies
 
