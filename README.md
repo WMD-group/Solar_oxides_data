@@ -2,7 +2,7 @@ Data repository for paper: ***Data-driven discovery of photoactive quaternary ox
 
 ## Background
 
-The high-throuhgput workflow uses a mixture of machine learning, data-driven models and first-principles calculations. The overall aim is to filter through a search space of 1 million quaternary oxide compositions to identify some that fall within some stability window, have a bandgap in the range 1.0 - 2.5 eV, and are comprised of earth-abundant elements. 
+The high-throughput workflow uses a mixture of machine learning, data-driven models and first-principles calculations. The overall aim is to filter through a search space of 1 million quaternary oxide compositions to identify some that fall within some stability window, have a bandgap in the range 1.0 - 2.5 eV, and are comprised of earth-abundant elements. 
 
 ## Contents
 
