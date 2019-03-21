@@ -1,8 +1,8 @@
-Data repository for paper: ***Data-driven discovery of photoactive quaternary oxides using first-principles machine learning***
+Data repository for the publication: ***Data-driven discovery of photoactive quaternary oxides using first-principles machine learning***
 
 ## Background
 
-The high-throughput workflow uses a mixture of machine learning, data-driven models and first-principles calculations. The overall aim is to filter through a search space of 1 million quaternary oxide compositions to identify some that fall within some stability window, have a bandgap in the range 1.0 - 2.5 eV, and are comprised of earth-abundant elements. 
+The high-throughput workflow uses a mixture of machine learning, data-driven models and first-principles calculations. The overall aim is to filter through a search space of 1 million quaternary oxide compositions to identify those that fall within a stated stability window, have a bandgap in the range 1.0 - 2.5 eV, and are comprised of earth-abundant elements. 
 
 ## Contents
 
@@ -10,7 +10,7 @@ The high-throughput workflow uses a mixture of machine learning, data-driven mod
 
 **Steps 1 and 2: Machine learning**
 
-- Train a GBR model to predict bandgap from composition
+- Train a Gradient Boosting Regressor (GBR) model to predict bandgap from composition
 - Filter newly generated compositions using the GBR model
 
 **Steps 3 and 4: Data-driven filters**
@@ -21,7 +21,7 @@ The high-throughput workflow uses a mixture of machine learning, data-driven mod
 
 **Step 5: Thermodynamic stability and electronic properties**
 
-- Thermodynamic stability calculations with high-throughput DFT
+- Thermodynamic stability calculations with high-throughput Density Functional Theory (DFT)
 - Bandgap calculation with hybrid DFT
 
 #### Data
@@ -41,9 +41,10 @@ The notebooks make use of many Python packages:
 - [atomate](https://atomate.org/)
 - [fireworks](https://materialsproject.github.io/fireworks/)
 
+```pip install pymongo pymatgen matminer scikit-learn smact pandas atomate fireworks```
+
 ### Caveats
 
 - Some notebooks connect to the Materials Project using their API. It is therefore possible that data downloaded fresh may not exactly match data used for the work in the original paper. 
 - The GBR model is built from scratch. Due to the randomness deliberately introduced in the training process, the predicted bandgap values of the same composition will vary slightly each time a new model is built.
-- A lot of different libraries are used (see below) and I am not an expert in all of them: some of the code is probably far from elegant! 
-
+- Many different libraries are used and I am not an expert in all of them: some of the code is probably far from elegant! 
