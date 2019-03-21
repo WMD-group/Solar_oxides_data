@@ -8,18 +8,18 @@ The high-throughput workflow uses a mixture of machine learning, data-driven mod
 
 #### Notebooks
 
-**Steps 1 and 2: Machine learning**
+**[Steps 1 and 2: Machine learning](https://github.com/WMD-group/Solar_oxides_data/blob/master/Step1_and_step2_machine_learning.ipynb)**
 
 - Train a Gradient Boosting Regressor (GBR) model to predict bandgap from composition
 - Filter newly generated compositions using the GBR model
 
-**Steps 3 and 4: Data-driven filters**
+**[Step 3: Data-driven filters](https://github.com/WMD-group/Solar_oxides_data/blob/master/Step3_data_driven_filters.ipynb)**
 
 - Rank compositions by sustainability 
 - Assign structures
 - Apply oxidation state probability filter
 
-**Step 5: Thermodynamic stability and electronic properties**
+**[Steps 4 and 5: Thermodynamic stability and electronic properties](https://github.com/WMD-group/Solar_oxides_data/blob/master/Step4_and_step5_first_principles_calcs.ipynb)**
 
 - Thermodynamic stability calculations with high-throughput Density Functional Theory (DFT)
 - Bandgap calculation with hybrid DFT
