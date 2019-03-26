@@ -26,7 +26,7 @@ The high-throughput workflow uses a mixture of machine learning, data-driven mod
 
 #### Data
 
-The required data can be downloaded separately [here](https://zenodo.org/record/2600285#.XJKBzs_7RBw)
+The required data can be downloaded separately here
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2600285.svg)](https://doi.org/10.5281/zenodo.2600285)
 and should be untarred directly into this directory, creating a sub-directory named `data`. For the first notebook, a database is also required from [the CMR](https://cmr.fysik.dtu.dk/mp_gllbsc/mp_gllbsc.html#mp-gllbsc).
 
