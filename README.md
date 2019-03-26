@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/176782070.svg)](https://zenodo.org/badge/latestdoi/176782070)
+
 Data repository for the publication: ***Data-driven discovery of photoactive quaternary oxides using first-principles machine learning***
 
 ## Background
