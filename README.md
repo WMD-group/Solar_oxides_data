@@ -24,10 +24,9 @@ The high-throughput workflow uses a mixture of machine learning, data-driven mod
 - Thermodynamic stability calculations with high-throughput Density Functional Theory (DFT)
 - Bandgap calculation with hybrid DFT
 
-#### Data
-
-The required data can be downloaded separately here
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2600285.svg)](https://doi.org/10.5281/zenodo.2600285)
+#### Data 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2600285.svg)](https://doi.org/10.5281/zenodo.2600285) 
+The required data can be downloaded separately from the above Zenodo DOI link
 and should be untarred directly into this directory, creating a sub-directory named `data`. For the first notebook, a dataset is also required from [the CMR](https://cmr.fysik.dtu.dk/mp_gllbsc/mp_gllbsc.html#mp-gllbsc).
 
 ### Dependencies
